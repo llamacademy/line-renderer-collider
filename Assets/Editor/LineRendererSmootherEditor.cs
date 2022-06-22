@@ -159,6 +159,16 @@ public class LineRendererSmootherEditor : Editor
             DrawSegments();
         }
 
+        if(Smoother.gameObject.TryGetComponent<MeshCollider>(out MeshCollider meshCollider))
+        {
+            for (int i = 0; i <meshCollider.sharedMesh.vertexCount; i++)
+            {
+                Handles.color = Color.black;
+                Handles.Label(meshCollider.sharedMesh.vertices[i], $"{i}");
+            }
+        }
+        
+
     }
 
     private void DrawSegments()
