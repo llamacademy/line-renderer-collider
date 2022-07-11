@@ -16,7 +16,6 @@ Head over to https://patreon.com/llamacademy to show your support.
 * YOUR NAME HERE!
 
 ### Awesome Supporter Tier
-* Raphael
 * Andrew Bowen
 * Gerald Anderson
 * AudemKay
